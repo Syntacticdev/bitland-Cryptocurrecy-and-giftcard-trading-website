@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Bitcoin",
+        "exchange_rate": "350",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "bitcoin",
+        "fs": "",
+        "icon": "./icon/bitcoin-btc-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Ethereum",
+        "exchange_rate": "290",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "ethereum",
+        "fs": "",
+        "icon": "./icon/ethereum-eth-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Binance Coin",
+        "exchange_rate": "300",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "binance_coin",
+        "fs": "",
+        "icon": "./icon/binance-coin-bnb-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Tether USDT",
+        "exchange_rate": "300",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "tether_usdt",
+        "fs": "",
+        "icon": "./icon/tether-usdt-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Dash",
+        "exchange_rate": "500",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "dash_coin",
+        "fs": "",
+        "icon": "./icon/dash-dash-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Litecoin",
+        "exchange_rate": "500",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "litecoin_ltc",
+        "fs": "",
+        "icon": "./icon/litecoin-ltc-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Telcoin",
+        "exchange_rate": "500",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "telcoin",
+        "fs": "",
+        "icon": "./icon/telcoin-tel-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Transfer Token",
+        "exchange_rate": "500",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "transfer-token",
+        "fs": "",
+        "icon": "./icon/the-transfer-token-ttt-logo.svg",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Google Play",
+        "exchange_rate": "400",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "google-play",
+        "fs": "google-play",
+        "icon": "",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    },
+    {
+        "name": "Amazon",
+        "exchange_rate": "450",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.",
+        "tag": "amazon",
+        "fs": "amazon",
+        "icon": "",
+        "quantity": "",
+        "selling_rate": "4",
+        "buying rate": ""
+    }
+]

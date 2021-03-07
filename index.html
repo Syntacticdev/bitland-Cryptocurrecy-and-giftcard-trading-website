@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitLand</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="sub-head"> <i class="fas fa-stopwatch"></i> Opening Hours - Mon - Sat: 9AM to 5PM<span></span></div>
+
+        <div class="main-head">
+            <div class="for-logo">
+                <div>
+                    <h3 class="logo-text">BIT<span class="red-text accent-4">LAND</span></h3>
+                    <span class="moto">Best Online Cryptocurrency Trading Website</span>
+                </div>
+            </div>
+
+            <div class="for-contact">
+                <div class="email">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <div>
+                        <h5 class="email">Email Us</span></h5>
+                        <span>info@bitland.com</span>
+                    </div>
+                </div>
+            
+                <div class="call-us">
+                    <i class="fas fa-phone-alt fa-2x"></i>
+                    <div>
+                        <h5 class="call">Call Us</span></h5>
+                        <span>+123-456-7890</span>
+                    </div>
+                </div>
+
+            </div>    
+
+            <div>
+                <button class="getStarted_btn">Get Started <i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </div> 
+    </header>
+    <main>
+        <section class="advert">
+            <div class="navigation">
+                <ul class="deep-orange ">
+                    <li><a href="" class="home">HOME</a></li>
+                    <li><a href="#trade">TRADE YOUR</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">RATES</a></li>
+                    <li><a href="">NEWS</a></li>
+                </ul>
+            </div>
+            <h2 class="info-guide-one">Secure & Easy Way To</h2>
+            <h2 class="info-guide-two">Buy and Sell Cryptocurrency</h2>
+            <h5 class="info-guide-three">OUR EXPERTS ARE READY TO HELP YOU</h5>
+            <div class="action_button">
+                <button class="learn btn red">LEARN MORE</button>
+                <button class="price btn">PRICE RATE</button>
+            </div>
+        </section>
+
+        <section id="trade">
+            <template id="trade-list-template">
+                <div data-card>
+                    <i data-icon></i>
+                    <h5 data-product-name>Product Name</h5>
+                    <div class="divider"></div>
+                    <span data-details>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.</span>
+                    <button class="btn-floating btn-large activator orange accent-4 reveal_info"><i class="material-icons">unfold_more</i></button>
+                    <div class="card-reveal">
+                        <span class="card-title"><i class="material-icons">unfold_more</i></span>
+                        <i data-icon2></i>
+                        <h6 class="text-flow">RATE</h6>
+                        <div class="rate_board">
+                           <div data-sell>
+                                <span>Selling Rate:</span>
+                                <span class="selling_rate">450</span>
+                            </div>
+                            <div data-buy>
+                                <span>Buying Rate:</span>
+                                <span class="buying_rate">300</span>
+                            </div>
+                            <div>
+                                <span>Quantity:</span>
+                                <span class="quantity">000000.1</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn green buy_now">BUY</button>
+                            <button class="btn sell_now">SELL</button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </section>
+    </main>
+
+    <section id="about">
+        <div>
+            <h5 class="faq-label">FREQUENTLY <span>QUESTIONS</span></h5>
+            <img class="customer-care-img" src="./images/undraw_Questions_re_1fy7.png" alt="">
+        </div>
+        <div id="faq">
+            <div class="questions">
+                <ul class="collapsible popout m-0" data-questions-list>
+                    <template id="qestion-list-template">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons ">question_answer</i><span data-question>question</span></div>
+                            <div class="collapsible-body"><span data-answer>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                    </template>    
+                </ul> 
+            </div>
+        </div>
+
+        <!-- <div id="about-us">
+            <h5>ABOUT <span>US</span></h5>
+            <div>
+                <img class="responsive-img" src="./images/pexels-alexander-mils-2068975.jpg" alt="">
+
+                <h3 class="py-2">Who we are ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem possimus beatae temporibus porro repellendus tempora ratione. Optio, sed ratione impedit, pariatur enim expedita 
+                suscipit repudiandae unde fuga, quibusdam beatae aut. Blanditiis amet nihil atque eos at veniam.
+                </p>
+                <button class="btn btn-warning text-white">READ MORE</button>
+            </div>
+        </div> -->
+    </section>
+
+
+    <footer>
+        <div class="ft-one">
+            <div class="social_link">
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="twitter"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <h4 class="company_logo">BITLAND</h4>
+            <div>
+                <i class="fab fa-cc-paypal fa-3x"></i>
+                <i class="fab fa-cc-visa fa-3x"></i>
+                <i class="fab fa-cc-mastercard fa-3x"></i>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="contact-foot">
+            <div class="email">
+                <i class="fas fa-mail-bulk"></i>
+                <h6>MAIL</h6>
+                <span>support@bitland.com</span>
+            </div>
+            <div class="email">
+                <i class="fas fa-phone-alt"></i>
+                <h6>CALL</h6>
+                <span>+234 801 444444</span>
+            </div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <h6>FIND US</h6>
+                <span>BitLand, Port Harcourt</span>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="copyright">&copy; 2021 BitLand. All rights reserved.</div>
+    </footer>
+</body>
+</html>
