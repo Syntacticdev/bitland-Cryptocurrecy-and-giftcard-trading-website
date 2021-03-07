@@ -303,6 +303,17 @@ footer .divider {
         grid-template-columns: repeat(3,1fr);
         width: 90%;
     }
+    .info-guide-one {
+        font-size: 25px;
+    }
+
+    .info-guide-two {
+        font-size: 35px;
+    }
+
+    .info-guide-three {
+        font-size: 20px;
+    }
 
     #faq {
         margin-bottom: 50px;
@@ -340,7 +351,4 @@ footer .divider {
     .copyright {
         padding: 20px 0;
     }
-    /* .navigation ul li a {
-        font-size: 25px;
-    } */
 }
